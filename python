@@ -1,0 +1,11 @@
+def login(a,b):
+    if a=='menon':
+       if b=='college':
+           print("Login Successful Welcome")
+       else:
+           print("Invalid Password")
+    else:
+        print("Invalid Username")
+c=input("Enter Username=")
+d=input("Enter Password=")
+login(c,d)
